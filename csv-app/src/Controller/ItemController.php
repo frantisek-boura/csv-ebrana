@@ -78,9 +78,6 @@ class ItemController extends AbstractController
         $items = $itemRepository->findWithColours();
 
         return new JsonResponse($items, 200);
-
     }
-
-
 
 }
