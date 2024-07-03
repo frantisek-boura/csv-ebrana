@@ -40,7 +40,7 @@ const App = () => {
                 'Content-Type': 'multipart/form-data'
             } 
         }).then(() => {
-            setUploadMessage("Data uploaded successfully");
+            setUploadMessage("Nahrávání proběhlo úspěšně");
             setConnectionError(false)
         }).catch(() => {
             setUploadMessage("There was an error while uploading the data");
